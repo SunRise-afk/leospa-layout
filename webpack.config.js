@@ -25,12 +25,16 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
+        test: /\.(jpg|png|gif)$/i,
+        use: ["file-loader"],
+      },
+      {
         test: /\.(ttf|woff|woff2|eot)$/i,
         use: ["file-loader"],
       },
     ],
   },
   devServer: {
-    port: 3000,
+    port: 4200,
   },
 };
