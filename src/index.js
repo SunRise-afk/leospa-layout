@@ -1,4 +1,4 @@
-import "./styles.scss";
+import "./style.scss";
 import headerBg from "./assets/images/headerBg.jpg";
 import logo from "./assets/images/logo.png";
 import Icon from "./assets/images/Icon.png";
@@ -45,5 +45,3 @@ images[20].src = blog1;
 images[21].src = blog2;
 images[22].src = blog3;
 images[23].src = logo;
-
-console.log(images, headerBg);

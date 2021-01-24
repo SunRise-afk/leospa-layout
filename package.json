@@ -1,12 +1,11 @@
 {
   "name": "leospa",
   "version": "1.0.0",
-  "homepage": "https://sunrise-afk.github.io/leospa-layout/",
   "description": "leospa layout",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d dist",
+    "deploy": "gh-pages -b master -d dist",
     "start": "webpack serve --open",
     "build": "webpack --mode production"
   },
@@ -18,12 +17,10 @@
   "devDependencies": {
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",
-    "html-loader": "^1.3.2",
     "html-webpack-plugin": "^4.5.1",
     "node-sass": "^5.0.0",
     "sass-loader": "^10.1.1",
     "style-loader": "^2.0.0",
-    "url-loader": "^4.1.1",
     "webpack": "^5.17.0",
     "webpack-cli": "^4.4.0",
     "webpack-dev-server": "^3.11.2"
