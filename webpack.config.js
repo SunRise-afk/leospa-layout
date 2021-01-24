@@ -8,9 +8,11 @@ module.exports = {
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
+    publicPath: "/",
   },
   plugins: [
     new HTMLWebpackPlugin({
+      filename: "index.html",
       template: "index.html",
     }),
   ],
